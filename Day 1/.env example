@@ -1,0 +1,11 @@
+# PostgreSQL Database Connection
+DATABASE_URL=postgresql://username:password@localhost:5432/cloud_notes_db
+
+# JWT Configuration
+SECRET_KEY=your_super_secret_key_here
+
+# JWT Algorithm
+ALGORITHM=HS256
+
+# Token Expiration Time (in minutes)
+ACCESS_TOKEN_EXPIRE_MINUTES=30
